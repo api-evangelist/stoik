@@ -1,8 +1,31 @@
 aid: stoik
 name: Stoik
-description: Stoik is a company surfaced as a portfolio company of a16z, anthemis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Stoïk is a European cyber-insurtech, founded in 2021 and headquartered in Paris, that
+  pairs cyber insurance with active security prevention for small and mid-market businesses
+  (up to roughly €1B revenue). Insurance coverage of up to €10M is backed by Tokio Marine
+  HCC, Swiss Re and Axeria IARD and sold 100% online through a broker platform used by
+  1,500+ partner brokers across France, Germany, Spain, Austria, Belgium and the Netherlands.
+  Beyond insurance, Stoïk ships a free risk-monitoring suite — Stoïk Protect (external scan,
+  phishing simulation, Active Directory and cloud scanning, leaked-credential monitoring),
+  Managed Detection & Response (MDR), and managed email security — plus 24/7 incident
+  response. Stoïk is a portfolio company of Andreessen Horowitz (a16z) and Anthemis. No
+  public developer API is published today; the developer-adjacent surface is a GitBook help
+  center (docs.stoik.io, with an llms.txt index and a dated changelog), the insured/broker
+  platform at app.stoik.io, and the GitHub org github.com/stoikio.
 url: https://raw.githubusercontent.com/api-evangelist/stoik/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://uploads-ssl.webflow.com/60be2330f31e471e6ee67e0c/627e251a82a788379f0f1e77_Name%20-%20Dark.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +35,51 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cyber Insurance
+- Cybersecurity
+- Insurtech
+- Managed Detection and Response
+- Email Security
+- Phishing Simulation
+- Vulnerability Scanning
+- Incident Response
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/stoik-domain-security.yml
+- type: Website
+  url: https://www.stoik.com/en-us
+- type: Documentation
+  url: https://docs.stoik.io/readme.md
+- type: HelpCenter
+  url: https://docs.stoik.io/
+- type: Blog
+  url: https://www.stoik.com/en-us/resources
+- type: GitHubOrganization
+  url: https://github.com/stoikio
+- type: ChangeLog
+  url: https://docs.stoik.io/changelog
+- type: ChangeLog
+  url: changelog/stoik-changelog.yml
+- type: TermsOfService
+  url: https://www.stoik.com/en-us/terms
+- type: PrivacyPolicy
+  url: https://www.stoik.com/privacy
+- type: Login
+  url: https://app.stoik.io/
+- type: LLMsTxt
+  url: llms/stoik-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

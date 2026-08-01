@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on Stoïk hosts
+notes: >-
+  No /.well-known/ discovery documents are published. The marketing site (www.stoik.com) is
+  a Next.js app that returns 404 for every /.well-known/ path; the insured/broker app
+  (app.stoik.io) is a React SPA whose catch-all route returns the HTML shell (HTTP 200,
+  content-type text/html) for any path, so its "200s" are not real discovery documents.
+  No security.txt (RFC 9116), OIDC/OAuth metadata, api-catalog, or ai-plugin.json was found.
+hosts:
+- host: https://www.stoik.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /security.txt, status: 404}
+- host: https://app.stoik.io
+  documents:
+  - {path: /.well-known/security.txt, status: 200, note: SPA catch-all HTML, not a real security.txt}
+  - {path: /.well-known/openid-configuration, status: 200, note: SPA catch-all HTML, not OIDC metadata}
+  - {path: /.well-known/oauth-authorization-server, status: 200, note: SPA catch-all HTML}
+  - {path: /.well-known/api-catalog, status: 200, note: SPA catch-all HTML}
+  - {path: /.well-known/ai-plugin.json, status: 200, note: SPA catch-all HTML}
+- host: https://docs.stoik.io
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}

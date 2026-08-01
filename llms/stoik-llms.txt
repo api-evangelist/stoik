@@ -1,0 +1,158 @@
+# Stoik
+
+## Help Center
+
+- [Help Center](https://docs.stoik.io/readme.md)
+- [Contact in case of an attack](https://docs.stoik.io/cyberattack/who-to-contact-at-stoik-in-case-of-an-attack.md)
+- [Compensation](https://docs.stoik.io/cyberattack/how-does-compensation-work.md)
+- [Purpose of the account](https://docs.stoik.io/onboarding/why-do-insurees-have-a-stoik-protect-account.md)
+- [Onboarding session](https://docs.stoik.io/onboarding/how-to-book-an-onboarding-session.md)
+- [Reducing the deductible](https://docs.stoik.io/onboarding/how-to-reduce-the-insurance-deductible.md)
+- [Vulnerability notifications](https://docs.stoik.io/onboarding/who-gets-notified-for-new-vulnerabilities.md)
+- [Tool access](https://docs.stoik.io/onboarding/who-can-monitor-the-different-tools.md)
+- [User access management](https://docs.stoik.io/onboarding/user-access-management.md)
+- [Requiring MFA](https://docs.stoik.io/onboarding/how-to-require-mfa-for-a-user.md)
+- [Cockpit](https://docs.stoik.io/onboarding/cockpit.md)
+- [External Scan](https://docs.stoik.io/prevention-tools/what-is-the-external-scan.md)
+- [Difference with a penetration test](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/is-the-stoik-external-scan-a-penetration-test.md)
+- [Configuration](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/how-to-configure-the-stoik-external-scan.md)
+- [Data leaks](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/what-are-data-leaks.md)
+- [IP addresses used](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/what-ip-addresses-does-the-stoik-external-scan-use.md)
+- [Reading results](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/how-to-read-results-on-the-external-scan.md)
+- [Excluding false positive assets](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/how-to-exclude-false-positive-assets.md)
+- [Excluding false positive vulns](https://docs.stoik.io/prevention-tools/what-is-the-external-scan/how-to-exclude-false-positive-vulnerabilities.md)
+- [Phishing module](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module.md)
+- [Setup](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/phishing-module-setup.md)
+- [Tenant statuses](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/understanding-tenant-statuses.md)
+- [Common setup errors](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/common-errors-during-phishing-module-setup.md)
+- [Domain allowlist feed](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/domain-allowlist-feed.md)
+- [Launching a campaign](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/how-to-launch-a-phishing-campaign.md)
+- [Employees and groups](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/managing-employees-and-groups.md)
+- [Results and performance](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/understanding-phishing-results-and-performance.md)
+- [Templates](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/understanding-phishing-templates.md)
+- [Custom templates](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/how-to-create-a-custom-phishing-template.md)
+- [Manual employee import](https://docs.stoik.io/prevention-tools/what-is-the-phishing-module/manual-employee-import.md)
+- [Active Directory scan](https://docs.stoik.io/prevention-tools/what-is-the-active-directory-scan.md)
+- [Setup](https://docs.stoik.io/prevention-tools/what-is-the-active-directory-scan/ad-scan-setup.md)
+- [Reading results](https://docs.stoik.io/prevention-tools/what-is-the-active-directory-scan/how-to-read-results-on-the-ad-scan.md)
+- [Common setup errors](https://docs.stoik.io/prevention-tools/what-is-the-active-directory-scan/common-errors-during-in-active-directory-set-up.md)
+- [Cloud scan](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan.md)
+- [Setup: Azure Cloud](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/cloud-scan-setup-azure-cloud.md)
+- ["Bad Tenant" error](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/cloud-scan-setup-azure-cloud/how-to-manage-a-bad-tenant-error-on-microsoft-azure.md)
+- [MFA status](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/cloud-scan-setup-azure-cloud/which-employees-have-enabled-mfa-in-microsoft-azure.md)
+- [Setup: Entra ID](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/cloud-scan-setup-entra-id.md)
+- [Setup: AWS](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/cloud-scan-setup-aws.md)
+- [Setup: GCP](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/cloud-scan-setup-gcp.md)
+- [Reading results](https://docs.stoik.io/prevention-tools/what-is-the-cloud-scan/how-to-read-results-on-the-cloud-scan.md)
+- [Credentials](https://docs.stoik.io/prevention-tools/credentials.md): The Credentials section gives you a dedicated view of everything Stoïk has found related to leaked credentials and compromised devices for your organisation.
+- [Deploy the EDR](https://docs.stoik.io/stoik-mdr/deploy.md)
+- [Antivirus and exclusions](https://docs.stoik.io/stoik-mdr/deploy/antivirus-and-exclusions.md)
+- [CrowdStrike](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike.md)
+- [Operating systems](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems.md)
+- [Windows](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems/windows.md)
+- [macOS](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems/macos.md)
+- [ChromeOS](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems/chromeos.md)
+- [Linux](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems/linux.md)
+- [Virtual environments](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems/virtual-environments.md)
+- [Installation errors](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/operating-systems/installation-errors.md)
+- [Add-on modules](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/add-on-modules.md)
+- [Mobile devices](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/add-on-modules/mobile-devices.md)
+- [Device Control](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/add-on-modules/device-control.md)
+- [ITP with Entra ID](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/add-on-modules/itp-with-entra-id.md)
+- [Network requirements](https://docs.stoik.io/stoik-mdr/deploy/crowdstrike/network-requirements.md)
+- [SentinelOne](https://docs.stoik.io/stoik-mdr/deploy/sentinelone.md)
+- [Operating systems](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/operating-systems.md)
+- [Windows](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/operating-systems/windows.md)
+- [macOS](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/operating-systems/macos.md)
+- [Linux](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/operating-systems/linux.md)
+- [Add-on modules](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/add-on-modules.md)
+- [IS-IDP (RangerAD)](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/add-on-modules/is-idp-rangerad.md)
+- [Network requirements](https://docs.stoik.io/stoik-mdr/deploy/sentinelone/network-requirements.md)
+- [Microsoft Defender](https://docs.stoik.io/stoik-mdr/deploy/microsoft-defender.md)
+- [Management on Stoïk Protect](https://docs.stoik.io/stoik-mdr/management.md)
+- [Hosts table](https://docs.stoik.io/stoik-mdr/management/hosts-table.md)
+- [Users table](https://docs.stoik.io/stoik-mdr/management/users-table.md)
+- [MDR results](https://docs.stoik.io/stoik-mdr/management/mdr-results.md)
+- [Uninstall an EDR host](https://docs.stoik.io/stoik-mdr/management/uninstall-a-host.md)
+- [Priority contacts](https://docs.stoik.io/stoik-mdr/management/priority-contacts.md)
+- [Common questions](https://docs.stoik.io/stoik-mdr/common-questions.md)
+- [Does EDR slow down my computer?](https://docs.stoik.io/stoik-mdr/common-questions/does-edr-slow-down-my-computer.md)
+- [What if Internet connectivity is lost?](https://docs.stoik.io/stoik-mdr/common-questions/what-if-internet-connectivity-is-lost.md)
+- [Does EDR also monitor internal vulnerabilities?](https://docs.stoik.io/stoik-mdr/common-questions/does-edr-also-monitor-internal-vulnerabilities.md)
+- [How to add more licences?](https://docs.stoik.io/stoik-mdr/common-questions/adding-licences.md)
+- [Setup: Microsoft O365](https://docs.stoik.io/email-security/email-security-setup-microsoft-o365.md)
+- [Required permissions](https://docs.stoik.io/email-security/email-security-setup-microsoft-o365/which-microsoft-365-permissions-are-required-to-activate-email-security.md)
+- [Coverage for all O365 licenses](https://docs.stoik.io/email-security/email-security-setup-microsoft-o365/email-security-coverage-to-all-microsoft-o365-licenses.md)
+- [Purview activation errors](https://docs.stoik.io/email-security/email-security-setup-microsoft-o365/troubleshooting-purview-activation-errors-and-delays.md)
+- [Purview Script](https://docs.stoik.io/email-security/email-security-setup-microsoft-o365/purview-script.md)
+- [Setup: Google Workspace](https://docs.stoik.io/email-security/email-security-setup-google-workspace.md)
+- [Monitored mailbox statuses](https://docs.stoik.io/email-security/how-to-read-the-status-of-monitored-mailboxes.md)
+- [Reading results](https://docs.stoik.io/email-security/how-to-read-email-security-results.md)
+- [How Stoïk Report works](https://docs.stoik.io/human-security/how-stoik-report-works.md)
+- [Reporting suspicious emails](https://docs.stoik.io/human-security/how-to-report-suspicious-emails-with-stoik.md): The Stoïk Report button lets you flag suspicious emails in one click, directly from your mailbox. This short guide walks you through what it is, how to use it, and what happens after you report.
+- [Deploying Stoïk Report](https://docs.stoik.io/human-security/deploy-and-roll-out-stoik-report-to-your-team.md): This article walks you through deploying the Stoïk Report extension across your organization and ensuring your employees use it. The deployment takes around 15 minute.
+- [Stoïk Training](https://docs.stoik.io/human-security/stoik-training.md): What is the Training module and how does it work
+- [Activating training](https://docs.stoik.io/human-security/stoik-training/activating-training.md)
+- [Sharing training with your team](https://docs.stoik.io/human-security/stoik-training/sharing-training-with-your-team.md)
+- [Reading training results](https://docs.stoik.io/human-security/stoik-training/reading-training-results.md)
+- [Employee Training App](https://docs.stoik.io/human-security/stoik-training/employee-training-app.md)
+- [Stoïk Protect Privacy Policy](https://docs.stoik.io/stoik-protect-privacy-policy.md)
+
+## Changelog
+
+- [Changelog](https://docs.stoik.io/news/readme.md): New updates and improvements to Stoïk.
+
+## Broker Platform
+
+
+
+## Cyber Best Practices
+
+- [Implement secure backups](https://docs.stoik.io/cyber-best-practices/harden-your-environment/readme.md)
+- [Immutable S3 backups](https://docs.stoik.io/cyber-best-practices/harden-your-environment/readme/immutable-s3-backups.md)
+- [Back up your data with Wasabi](https://docs.stoik.io/cyber-best-practices/harden-your-environment/readme/back-up-your-data-with-wasabi.md)
+- [Cloud backup solutions](https://docs.stoik.io/cyber-best-practices/harden-your-environment/readme/cloud-backup-solutions.md)
+- [Implement certificates](https://docs.stoik.io/cyber-best-practices/harden-your-environment/implement-certificates.md)
+- [Deploying user certificates within the Active Directory](https://docs.stoik.io/cyber-best-practices/harden-your-environment/implement-certificates/deploying-user-certificates-within-the-active-directory.md)
+- [Certificate-based MFA on Fortigate](https://docs.stoik.io/cyber-best-practices/harden-your-environment/implement-certificates/certificate-based-mfa-on-fortigate.md)
+- [Email authentication](https://docs.stoik.io/cyber-best-practices/harden-your-environment/email-authentication.md)
+- [What is SPF and how do I configure it?](https://docs.stoik.io/cyber-best-practices/harden-your-environment/email-authentication/what-is-spf-and-how-do-i-configure-it.md)
+- [What is DMARC and how do I configure it?](https://docs.stoik.io/cyber-best-practices/harden-your-environment/email-authentication/what-is-dmarc-and-how-do-i-configure-it.md)
+- [External Scan: resolve RDP service exposure](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/how-to-resolve-rdp-service-exposure-from-the-internet.md)
+- [Active Directory Scan](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/ad-scan-vulnerability-remediation-guide.md)
+- [Anomalies](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/ad-scan-vulnerability-remediation-guide/anomalies.md)
+- [Privileged accounts](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/ad-scan-vulnerability-remediation-guide/privileged-accounts.md)
+- [Stale objects](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/ad-scan-vulnerability-remediation-guide/stale-objects.md)
+- [Cloud Scan](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/cloud-scan.md)
+- [Microsoft Azure / Entra ID / Microsoft 365](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/cloud-scan/microsoft-azure-entra-id-microsoft-365.md)
+- [Amazon Web Services (AWS)](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/cloud-scan/amazon-web-services-aws.md)
+- [Google Cloud Platform (GCP)](https://docs.stoik.io/cyber-best-practices/vulnerability-remediation-guides/cloud-scan/google-cloud-platform-gcp.md)
+- [Incident response reflexes](https://docs.stoik.io/cyber-best-practices/manage-a-cyberattack/incident-response-reflexes.md)
+- [BCP/DRP](https://docs.stoik.io/cyber-best-practices/manage-a-cyberattack/bcp-drp.md)
+
+## MSP Platform
+
+- [Présentation](https://docs.stoik.io/msp/bien-demarrer/readme.md)
+- [Ouverture d'un espace MSP](https://docs.stoik.io/msp/bien-demarrer/ouverture-dun-espace-msp.md)
+- [Ajouter un compte](https://docs.stoik.io/msp/gestion-des-comptes/ajouter-un-compte.md)
+- [Règles d'exclusivité](https://docs.stoik.io/msp/gestion-des-comptes/regles-dexclusivite.md)
+- [Acheter des licences](https://docs.stoik.io/msp/gestion-des-comptes/acheter-des-licences.md)
+- [Manager un compte](https://docs.stoik.io/msp/gestion-des-comptes/manager-un-compte.md)
+- [Facturation](https://docs.stoik.io/msp/gestion-des-comptes/facturation.md)
+- [Cockpit Stoïk Protect](https://docs.stoik.io/msp/stoik-protect/cockpit-stoik-protect.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.stoik.io/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

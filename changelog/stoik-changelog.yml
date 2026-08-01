@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.stoik.io/changelog
+scheme: date-based
+notes: >-
+  Stoïk publishes a product changelog on its GitBook help center (docs.stoik.io/changelog)
+  for the Stoïk Protect / prevention platform. Entries are dated (YYYY-MM-DD), newest first;
+  there is no semantic API version because Stoïk does not publish a public developer API.
+  Only the recent window is captured here — the live page is the source of truth.
+current: '2026-07-08'
+entries:
+- date: '2026-07-08'
+  title: 'Credentials: From Leak to Alert'
+  type: addition
+  breaking: false
+  highlights: New dedicated section surfaces leaked credentials and confirms which ones
+    still pose an active security risk.
+- date: '2026-07-06'
+  title: 'Training: Security awareness, built in'
+  type: addition
+  breaking: false
+  highlights: Integrated security-awareness training module with employee portal, quizzes,
+    and automatic phishing-to-training redirection.
+- date: '2026-07-01'
+  title: Report Suspicious Emails in One Click
+  type: addition
+  breaking: false
+  highlights: Employees can flag suspicious emails directly from Gmail/Outlook with automatic
+    classification and centralized triage.
+- date: '2026-06-05'
+  title: 'Phishing Template Studio: Attachments'
+  type: addition
+  breaking: false
+  highlights: Custom phishing templates now support file attachments (up to 5 files, 10 MB
+    each) for more realistic simulations.
+- date: '2026-05-25'
+  title: Require MFA on Specific Users
+  type: addition
+  breaking: false
+  highlights: Admins can enforce mandatory multi-factor authentication on designated users
+    with no bypass option.
