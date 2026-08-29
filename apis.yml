@@ -14,6 +14,17 @@ description: >-
   center (docs.stoik.io, with an llms.txt index and a dated changelog), the insured/broker
   platform at app.stoik.io, and the GitHub org github.com/stoikio.
 url: https://raw.githubusercontent.com/api-evangelist/stoik/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
