@@ -2,6 +2,13 @@
   "repo": "stoik",
   "feeds": [
     {
+      "source": "https://www.stoik.com/en-us/resources",
+      "feed_url": "https://www.stoik.com/en-us/resources",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://docs.stoik.io/",
       "feed_url": "https://docs.stoik.io/",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
